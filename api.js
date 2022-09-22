@@ -44,6 +44,10 @@ app.listen(puerto, () => console.log('el puerto es ' + puerto));
 
 //routeos
 
+app.get("/",(req, response)=>{
+    response.send("funciono")
+})
+
 app.get("/traer", cors(), (req, response) => {
     const sql = `SELECT * FROM personas`;
 
