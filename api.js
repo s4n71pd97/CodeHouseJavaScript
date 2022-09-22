@@ -25,10 +25,10 @@ var corsOptions = {
 //MYSQL
 
 const conexion = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "12345",
-    database: "Personas"
+    host: "us-cdbr-east-06.cleardb.net",
+    user: "b4154c58a4549e",
+    password: "f9fa92d6",
+    database: "heroku_1959a2e571e2bfc"
 })
 
 //PruebaConexion
