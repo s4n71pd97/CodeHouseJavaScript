@@ -6,7 +6,6 @@ const {
     response
 } = require("express");
 const puerto = process.env.puerto || 3050;
-app.listen(puerto);
 let cors = require('cors')
 const app = express();
 
