@@ -5,7 +5,8 @@ const bodyParser = require("body-parser");
 const {
     response
 } = require("express");
-const puerto = process.env.puerto || 3050;
+var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
 let cors = require('cors')
 const app = express();
 
